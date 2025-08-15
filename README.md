@@ -19,3 +19,22 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+
+Usage
+Simulate a deauthentication attack
+python simulator.py --deauth -a 00:11:22:33:44:55 -c 66:77:88:99:AA:BB -o output.pcap
+
+Simulate a network scan
+python simulator.py --scan
+
+Simulate opening a shell
+python simulator.py --shell -c 66:77:88:99:AA:BB
+
+Notes
+
+Default MAC addresses are used if none are provided.
+
+Simulation saves .pcap files for Wireshark analysis.
+
+Completely safe and legal.
