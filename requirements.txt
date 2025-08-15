@@ -1,0 +1,2 @@
+scapy
+(Optional: add pyngrok if you want to simulate tunnels later)
