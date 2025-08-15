@@ -1,2 +1,21 @@
-# wifi_simulator_project
-A Python-based simulation tool designed to demonstrate Wi-Fi deauthentication attacks, network scanning, and shell interactions in a safe, legal environment. This project is perfect for educational purposes, testing, or presentations, without ever affecting real networks or devices.
+# Wi-Fi Simulation Tool (Safe)
+
+A safe Python-based project to **simulate Wi-Fi deauthentication attacks, network scans, and shell interactions**.  
+Perfect for **educational demonstrations** and projects without affecting real networks.
+
+## Features
+
+- **Simulate deauth attacks** and save frames to `.pcap` files.
+- **Simulate scanning a network** for connected clients.
+- **Simulate shell access** on client devices.
+- Safe: **No real packets are sent**.
+
+## Requirements
+
+- Python 3.6–3.12
+- Scapy library
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
